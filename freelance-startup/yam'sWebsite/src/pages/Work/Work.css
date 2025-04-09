@@ -1,0 +1,67 @@
+@keyframes slideIn {
+  to {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+@keyframes openUp {
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+}
+
+.sub_menu_img {
+  transform: rotateX(90deg);
+  opacity: 0;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.masonry-grid {
+  display: flex;
+  margin-left: -0.6rem;
+  width: auto;
+}
+
+.masonry-grid_column {
+  padding-left: 0.6rem;
+  background-clip: padding-box;
+}
+
+.masonry-item {
+  margin-bottom: 0.6rem;
+  break-inside: avoid;
+}
+
+.opened_img {
+  transform: scale(0);
+  transform-origin: center center;
+}
+
+.prev_car_arrow {
+  transform: rotateY(180deg);
+  /* border-right: 2px solid rgba(0, 0, 0, 0.1); */
+}
+
+.prev_car_arrow:hover {
+  transform: rotateY(180deg);
+}
+
+.next_car_arrow{
+  /* border-right: 2px solid rgba(0, 0, 0, 0.1); */
+}

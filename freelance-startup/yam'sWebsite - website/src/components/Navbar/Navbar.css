@@ -1,0 +1,22 @@
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes transverseDown {
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+/* .nav_stag_class {
+  transform: translateY(-350px);
+  opacity: 0;
+} */
+
+.mob_login {
+  transform: translateY(-350px);
+  opacity: 0;
+}

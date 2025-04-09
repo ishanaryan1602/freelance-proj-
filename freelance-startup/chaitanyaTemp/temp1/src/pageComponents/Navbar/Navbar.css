@@ -1,0 +1,29 @@
+.mobile_nav {
+  animation: fadeIn 0s;
+}
+
+.mobile_nav_login{
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(0.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.nav_link_items{
+    opacity: 0;
+}

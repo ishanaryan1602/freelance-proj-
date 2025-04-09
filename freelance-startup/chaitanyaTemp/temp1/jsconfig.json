@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".", // Set base directory to the 'src' folder
+        "paths": {
+            "@/*": [
+                "./src/*"
+            ] // Map alias @ to 'src/*' directory
+        }
+    }
+}
